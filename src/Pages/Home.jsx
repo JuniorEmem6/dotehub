@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import { ProjectsShowcase } from "../components/Project";
+import { Footer } from "../components/Footer";
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
       <Header />
       <Hero />
       <ProjectsShowcase />
-      {/* <Footer />  */}
+      <Footer /> 
     </div>
   );
 };
